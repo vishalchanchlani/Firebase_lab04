@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		758CEF053037FF85ED08BFE1 /* Pods_MAPD714_F2019_Lesson11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA437BE469EB2AF3A72313F7 /* Pods_MAPD714_F2019_Lesson11.framework */; };
 		CE3CA9DE2386095700CD1571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA9DD2386095700CD1571 /* AppDelegate.swift */; };
 		CE3CA9E02386095700CD1571 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA9DF2386095700CD1571 /* SceneDelegate.swift */; };
 		CE3CA9E22386095700CD1571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA9E12386095700CD1571 /* ViewController.swift */; };
 		CE3CA9E52386095700CD1571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3CA9E32386095700CD1571 /* Main.storyboard */; };
 		CE3CA9E72386095800CD1571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3CA9E62386095800CD1571 /* Assets.xcassets */; };
 		CE3CA9EA2386095800CD1571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3CA9E82386095800CD1571 /* LaunchScreen.storyboard */; };
+		CE3CA9F2238609DF00CD1571 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE3CA9F1238609DF00CD1571 /* GoogleService-Info.plist */; };
+		CEDF36112387B54D00B03079 /* mainpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF36102387B54D00B03079 /* mainpageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23ECAED9ECE6B6335DA45EA3 /* Pods-MAPD714-F2019-Lesson11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAPD714-F2019-Lesson11.release.xcconfig"; path = "Target Support Files/Pods-MAPD714-F2019-Lesson11/Pods-MAPD714-F2019-Lesson11.release.xcconfig"; sourceTree = "<group>"; };
+		BA437BE469EB2AF3A72313F7 /* Pods_MAPD714_F2019_Lesson11.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAPD714_F2019_Lesson11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3CA9DA2386095700CD1571 /* MAPD714-F2019-Lesson11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-F2019-Lesson11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3CA9DD2386095700CD1571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3CA9DF2386095700CD1571 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		CE3CA9E62386095800CD1571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3CA9E92386095800CD1571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3CA9EB2386095800CD1571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3CA9F1238609DF00CD1571 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEDF36102387B54D00B03079 /* mainpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainpageViewController.swift; sourceTree = "<group>"; };
+		FD0E734FA7A82E74759AFCCC /* Pods-MAPD714-F2019-Lesson11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAPD714-F2019-Lesson11.debug.xcconfig"; path = "Target Support Files/Pods-MAPD714-F2019-Lesson11/Pods-MAPD714-F2019-Lesson11.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758CEF053037FF85ED08BFE1 /* Pods_MAPD714_F2019_Lesson11.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B860734C4942AA0C428AB44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA437BE469EB2AF3A72313F7 /* Pods_MAPD714_F2019_Lesson11.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE3CA9D12386095700CD1571 = {
 			isa = PBXGroup;
 			children = (
 				CE3CA9DC2386095700CD1571 /* MAPD714-F2019-Lesson11 */,
 				CE3CA9DB2386095700CD1571 /* Products */,
+				D6786F92369AAF6924CE44BD /* Pods */,
+				0B860734C4942AA0C428AB44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +78,23 @@
 				CE3CA9DD2386095700CD1571 /* AppDelegate.swift */,
 				CE3CA9DF2386095700CD1571 /* SceneDelegate.swift */,
 				CE3CA9E12386095700CD1571 /* ViewController.swift */,
+				CEDF36102387B54D00B03079 /* mainpageViewController.swift */,
 				CE3CA9E32386095700CD1571 /* Main.storyboard */,
 				CE3CA9E62386095800CD1571 /* Assets.xcassets */,
 				CE3CA9E82386095800CD1571 /* LaunchScreen.storyboard */,
 				CE3CA9EB2386095800CD1571 /* Info.plist */,
+				CE3CA9F1238609DF00CD1571 /* GoogleService-Info.plist */,
 			);
 			path = "MAPD714-F2019-Lesson11";
+			sourceTree = "<group>";
+		};
+		D6786F92369AAF6924CE44BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD0E734FA7A82E74759AFCCC /* Pods-MAPD714-F2019-Lesson11.debug.xcconfig */,
+				23ECAED9ECE6B6335DA45EA3 /* Pods-MAPD714-F2019-Lesson11.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3CA9EE2386095800CD1571 /* Build configuration list for PBXNativeTarget "MAPD714-F2019-Lesson11" */;
 			buildPhases = (
+				7DA3FEE9F7BE66D342ABA29D /* [CP] Check Pods Manifest.lock */,
 				CE3CA9D62386095700CD1571 /* Sources */,
 				CE3CA9D72386095700CD1571 /* Frameworks */,
 				CE3CA9D82386095700CD1571 /* Resources */,
+				AC35C212ACCE52C5C33AECBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3CA9EA2386095800CD1571 /* LaunchScreen.storyboard in Resources */,
+				CE3CA9F2238609DF00CD1571 /* GoogleService-Info.plist in Resources */,
 				CE3CA9E72386095800CD1571 /* Assets.xcassets in Resources */,
 				CE3CA9E52386095700CD1571 /* Main.storyboard in Resources */,
 			);
@@ -133,11 +166,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DA3FEE9F7BE66D342ABA29D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAPD714-F2019-Lesson11-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC35C212ACCE52C5C33AECBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAPD714-F2019-Lesson11/Pods-MAPD714-F2019-Lesson11-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAPD714-F2019-Lesson11/Pods-MAPD714-F2019-Lesson11-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAPD714-F2019-Lesson11/Pods-MAPD714-F2019-Lesson11-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE3CA9D62386095700CD1571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDF36112387B54D00B03079 /* mainpageViewController.swift in Sources */,
 				CE3CA9E22386095700CD1571 /* ViewController.swift in Sources */,
 				CE3CA9DE2386095700CD1571 /* AppDelegate.swift in Sources */,
 				CE3CA9E02386095700CD1571 /* SceneDelegate.swift in Sources */,
@@ -282,6 +358,7 @@
 		};
 		CE3CA9EF2386095800CD1571 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0E734FA7A82E74759AFCCC /* Pods-MAPD714-F2019-Lesson11.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +377,7 @@
 		};
 		CE3CA9F02386095800CD1571 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23ECAED9ECE6B6335DA45EA3 /* Pods-MAPD714-F2019-Lesson11.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
